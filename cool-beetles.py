@@ -16,36 +16,42 @@ GALLERY: List[Dict[str, str]] = [
         "emoji": "💥",
         "url": "static/beetles/bombardier.jpg",
         "page": "pages/bombardier-beetle.py",
+        "asset": "bombardier",
     },
     {
         "title": "Diving Beetle",
         "emoji": "🏊",
         "url": "static/beetles/diving.jpg",
         "page": "pages/diving-beetle.py",
+        "asset": "diving",
     },
     {
         "title": "Dung Beetle",
         "emoji": "💩",
         "url": "static/beetles/dung.jpg",
         "page": "pages/dung-beetle.py",
+        "asset": "dung",
     },
     {
         "title": "Hercules Beetle",
         "emoji": "🪲",
         "url": "static/beetles/hercules.jpg",
         "page": "pages/hercules-beetle.py",
+        "asset": "hercules",
     },
     {
         "title": "Tiger Beetle",
         "emoji": "🐅",
         "url": "static/beetles/tiger.jpg",
         "page": "pages/tiger-beetle.py",
+        "asset": "tiger",
     },
     {
         "title": "Tortoise Beetle",
         "emoji": "🐢",
         "url": "static/beetles/tortoise.jpg",
         "page": "pages/tortoise-beetle.py",
+        "asset": "tortoise",
     },
 ]
 
@@ -80,7 +86,7 @@ for _ in range(rows):
 
             st.link_button(
                 "🎮 Play a game",
-                "https://example.com",
+                f"https://cool-beetles-game.pages.dev/?asset={item['asset']}",
                 use_container_width=True,
             )
 
