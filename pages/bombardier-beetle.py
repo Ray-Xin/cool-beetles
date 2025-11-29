@@ -21,7 +21,7 @@ with facts_col:
         st.markdown(
             """
             - **Diet:** Small insects and larvae
-            - **Habitat:** Temperate forests, woodlands, and grasslands across North America, Europe, and Asia
+            - **Habitat:** Temperate forests, woodlands, and grasslands across North America, South America, Europe, Africa, and Australia
             - **Color:** Brown,black, and red
             - **Conservation:** Stable, not considered threatened
             """

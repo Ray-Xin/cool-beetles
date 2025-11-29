@@ -19,7 +19,7 @@ with facts_col:
         st.markdown(
             """
             - **Diet:** Plant material from the Morning Glory family (Convolvulaceae) or the Nightshade family (Solanaceae)
-            - **Habitat:** Forests and grasslands in North America, Europe, and Asia
+            - **Habitat:** Forests and grasslands in North America, South America, Europe, and Asia
             - **Color:** Varies from metallic gold and green to mottled brown; clear shell edges add shine
             - **Conservation:** Generally common
             """
