@@ -1,0 +1,3 @@
+[server]
+# Enable serving files from the local ./static directory (e.g. /static/beetles/...)
+enableStaticServing = true
